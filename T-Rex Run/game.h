@@ -41,7 +41,8 @@ private:
     SDL_Rect sonicJumpPos;
     SDL_Rect obstaclePos;
     SDL_Rect gameOverRect;
-
+    SDL_Texture* clouds[3];
+    SDL_Rect cloudPos[3];
     SDL_Texture* currentObstacle;
 
     bool isRunning;
@@ -57,6 +58,7 @@ private:
     int runFrameDelay;
     int rollFrameDelay;
     int frameDelay;
+    int cloudSpeed;
     int obstacleSpeed;
     int obstacleGap;
 
