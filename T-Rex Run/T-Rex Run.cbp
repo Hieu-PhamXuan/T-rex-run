@@ -55,6 +55,8 @@
 		<ExtraCommands>
 			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
 		</ExtraCommands>
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
