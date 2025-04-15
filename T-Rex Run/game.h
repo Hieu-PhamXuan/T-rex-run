@@ -44,11 +44,15 @@ private:
     SDL_Texture* clouds[3];
     SDL_Rect cloudPos[3];
     SDL_Texture* currentObstacle;
+    SDL_Texture* birdFrames[8];
+    SDL_Texture* birdBlackFrames[8];
+    SDL_Texture** currentBirdFrames;
 
     bool isRunning;
     bool isGameOver;
     bool isJumping;
     bool isRolling = false;
+    bool isBird = false;
     bool jumpAnimationDone;
 
     int velocityY;
@@ -61,6 +65,11 @@ private:
     int cloudSpeed;
     int obstacleSpeed;
     int obstacleGap;
+    int birdFrame = 0;
+    int birdFrameDelay = 0;
+    int birdFloatDirection = 1;
+    int birdFloatDelay = 0;
+    float birdFloatTime;
 
     SDL_Event e;
 };

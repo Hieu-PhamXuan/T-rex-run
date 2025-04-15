@@ -413,13 +413,14 @@
 1744549064 source:c:\t-rex run\main.cpp
 	"Game.h"
 
-1744613433 source:c:\t-rex run\game.cpp
+1744719609 source:c:\t-rex run\game.cpp
 	"Game.h"
 	<iostream>
 	<cstdlib>
 	<ctime>
+	<cmath>
 
-1744609267 c:\t-rex run\game.h
+1744720318 c:\t-rex run\game.h
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<SDL2/SDL_mixer.h>
